@@ -39,7 +39,12 @@ namespace AB_31_01_Saldumi
 
         private void but1_Click(object sender, EventArgs e)
         {
-            double naudas_daudzums_eur = Convert.ToInt32(this.tex1.Text);
+            double nauda = Convert.ToDouble(this.nauda);
+            double saldums = 9.88;
+            double daudzums = nauda / saldums;
+            daudzums = Math.Round(daudzums, 2);
+            this.izmaksa.Text = Convert.ToString(daudzums);
+
 
         }
 

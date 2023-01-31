@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.but1 = new System.Windows.Forms.Button();
-            this.tex1 = new System.Windows.Forms.TextBox();
-            this.tex2 = new System.Windows.Forms.TextBox();
+            this.nauda = new System.Windows.Forms.TextBox();
+            this.izmaksa = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,21 +48,21 @@
             this.but1.UseVisualStyleBackColor = true;
             this.but1.Click += new System.EventHandler(this.but1_Click);
             // 
-            // tex1
+            // nauda
             // 
-            this.tex1.Location = new System.Drawing.Point(279, 171);
-            this.tex1.Name = "tex1";
-            this.tex1.Size = new System.Drawing.Size(128, 20);
-            this.tex1.TabIndex = 1;
-            this.tex1.TextChanged += new System.EventHandler(this.tex1_TextChanged);
+            this.nauda.Location = new System.Drawing.Point(279, 171);
+            this.nauda.Name = "nauda";
+            this.nauda.Size = new System.Drawing.Size(128, 20);
+            this.nauda.TabIndex = 1;
+            this.nauda.TextChanged += new System.EventHandler(this.tex1_TextChanged);
             // 
-            // tex2
+            // izmaksa
             // 
-            this.tex2.Location = new System.Drawing.Point(497, 171);
-            this.tex2.Name = "tex2";
-            this.tex2.Size = new System.Drawing.Size(123, 20);
-            this.tex2.TabIndex = 2;
-            this.tex2.TextChanged += new System.EventHandler(this.tex2_TextChanged);
+            this.izmaksa.Location = new System.Drawing.Point(497, 171);
+            this.izmaksa.Name = "izmaksa";
+            this.izmaksa.Size = new System.Drawing.Size(123, 20);
+            this.izmaksa.TabIndex = 2;
+            this.izmaksa.TextChanged += new System.EventHandler(this.tex2_TextChanged);
             // 
             // label1
             // 
@@ -100,8 +100,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.tex2);
-            this.Controls.Add(this.tex1);
+            this.Controls.Add(this.izmaksa);
+            this.Controls.Add(this.nauda);
             this.Controls.Add(this.but1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -114,8 +114,8 @@
         #endregion
 
         private System.Windows.Forms.Button but1;
-        private System.Windows.Forms.TextBox tex1;
-        private System.Windows.Forms.TextBox tex2;
+        private System.Windows.Forms.TextBox nauda;
+        private System.Windows.Forms.TextBox izmaksa;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
