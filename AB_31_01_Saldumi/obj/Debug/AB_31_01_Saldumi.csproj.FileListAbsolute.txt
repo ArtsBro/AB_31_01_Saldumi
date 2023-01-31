@@ -1,0 +1,10 @@
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.exe.config
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.exe
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.pdb
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csprojAssemblyReference.cache
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.Form1.resources
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.Properties.Resources.resources
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.GenerateResource.cache
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.CoreCompileInputs.cache
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.exe
+Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.pdb

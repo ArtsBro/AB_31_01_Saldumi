@@ -16,5 +16,36 @@ namespace AB_31_01_Saldumi
         {
             InitializeComponent();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tex1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void but1_Click(object sender, EventArgs e)
+        {
+            double naudas_daudzums_eur = Convert.ToInt32(this.tex1.Text);
+
+        }
+
+        private void tex2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
