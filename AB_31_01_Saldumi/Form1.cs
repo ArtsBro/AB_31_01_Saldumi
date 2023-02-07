@@ -43,12 +43,22 @@ namespace AB_31_01_Saldumi
             double saldums = 9.88;
             double daudzums = nauda / saldums;
             daudzums = Math.Round(daudzums, 2);
-            this.izmaksa.Text = Convert.ToString(daudzums);
+            this.izmaksa.Text = Convert.ToString(izmaksa);
 
 
         }
 
         private void tex2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
