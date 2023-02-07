@@ -30,19 +30,20 @@
         {
             this.components = new System.ComponentModel.Container();
             this.but1 = new System.Windows.Forms.Button();
-            this.nauda = new System.Windows.Forms.TextBox();
-            this.izmaksa = new System.Windows.Forms.TextBox();
+            this.nauda_daudzums_eur = new System.Windows.Forms.TextBox();
+            this.daudzums = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.chekBox1 = new System.Windows.Forms.CheckBox();
+            this.checkbox2 = new System.Windows.Forms.CheckBox();
+            this.checkbox3 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // but1
             // 
+            this.but1.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.but1.Location = new System.Drawing.Point(385, 197);
             this.but1.Name = "but1";
             this.but1.Size = new System.Drawing.Size(140, 61);
@@ -51,24 +52,27 @@
             this.but1.UseVisualStyleBackColor = true;
             this.but1.Click += new System.EventHandler(this.but1_Click);
             // 
-            // nauda
+            // nauda_daudzums_eur
             // 
-            this.nauda.Location = new System.Drawing.Point(279, 171);
-            this.nauda.Name = "nauda";
-            this.nauda.Size = new System.Drawing.Size(128, 20);
-            this.nauda.TabIndex = 1;
-            this.nauda.TextChanged += new System.EventHandler(this.tex1_TextChanged);
+            this.nauda_daudzums_eur.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
+            this.nauda_daudzums_eur.Location = new System.Drawing.Point(279, 171);
+            this.nauda_daudzums_eur.Name = "nauda_daudzums_eur";
+            this.nauda_daudzums_eur.Size = new System.Drawing.Size(128, 20);
+            this.nauda_daudzums_eur.TabIndex = 1;
+            this.nauda_daudzums_eur.TextChanged += new System.EventHandler(this.tex1_TextChanged);
             // 
-            // izmaksa
+            // daudzums
             // 
-            this.izmaksa.Location = new System.Drawing.Point(497, 171);
-            this.izmaksa.Name = "izmaksa";
-            this.izmaksa.Size = new System.Drawing.Size(123, 20);
-            this.izmaksa.TabIndex = 2;
-            this.izmaksa.TextChanged += new System.EventHandler(this.tex2_TextChanged);
+            this.daudzums.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
+            this.daudzums.Location = new System.Drawing.Point(497, 171);
+            this.daudzums.Name = "daudzums";
+            this.daudzums.Size = new System.Drawing.Size(123, 20);
+            this.daudzums.TabIndex = 2;
+            this.daudzums.TextChanged += new System.EventHandler(this.tex2_TextChanged);
             // 
             // label1
             // 
+            this.label1.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(276, 155);
             this.label1.Name = "label1";
@@ -79,6 +83,7 @@
             // 
             // label2
             // 
+            this.label2.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(494, 155);
             this.label2.Name = "label2";
@@ -88,6 +93,7 @@
             // 
             // label3
             // 
+            this.label3.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(285, 93);
             this.label3.Name = "label3";
@@ -96,53 +102,58 @@
             this.label3.Text = "9.88E/kg Saldumu cena";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // checkBox1
+            // chekBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(435, 24);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(71, 17);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Šokolāde";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            this.chekBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
+            this.chekBox1.AutoSize = true;
+            this.chekBox1.Location = new System.Drawing.Point(435, 24);
+            this.chekBox1.Name = "chekBox1";
+            this.chekBox1.Size = new System.Drawing.Size(71, 17);
+            this.chekBox1.TabIndex = 6;
+            this.chekBox1.Text = "Šokolāde";
+            this.chekBox1.UseVisualStyleBackColor = true;
+            this.chekBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
-            // checkBox2
+            // checkbox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(435, 47);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(60, 17);
-            this.checkBox2.TabIndex = 7;
-            this.checkBox2.Text = "cepumi";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkbox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
+            this.checkbox2.AutoSize = true;
+            this.checkbox2.Location = new System.Drawing.Point(435, 47);
+            this.checkbox2.Name = "checkbox2";
+            this.checkbox2.Size = new System.Drawing.Size(60, 17);
+            this.checkbox2.TabIndex = 7;
+            this.checkbox2.Text = "cepumi";
+            this.checkbox2.UseVisualStyleBackColor = true;
+            this.checkbox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // checkBox3
+            // checkbox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(435, 70);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(45, 17);
-            this.checkBox3.TabIndex = 8;
-            this.checkBox3.Text = "sula";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkbox3.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
+            this.checkbox3.AutoSize = true;
+            this.checkbox3.Location = new System.Drawing.Point(435, 70);
+            this.checkbox3.Name = "checkbox3";
+            this.checkbox3.Size = new System.Drawing.Size(45, 17);
+            this.checkbox3.TabIndex = 8;
+            this.checkbox3.Text = "sula";
+            this.checkbox3.UseVisualStyleBackColor = true;
+            this.checkbox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkbox3);
+            this.Controls.Add(this.checkbox2);
+            this.Controls.Add(this.chekBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.izmaksa);
-            this.Controls.Add(this.nauda);
+            this.Controls.Add(this.daudzums);
+            this.Controls.Add(this.nauda_daudzums_eur);
             this.Controls.Add(this.but1);
-            this.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ForeColor = System.Drawing.Color.Crimson;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -154,15 +165,15 @@
         #endregion
 
         private System.Windows.Forms.Button but1;
-        private System.Windows.Forms.TextBox nauda;
-        private System.Windows.Forms.TextBox izmaksa;
+        private System.Windows.Forms.TextBox nauda_daudzums_eur;
+        private System.Windows.Forms.TextBox daudzums;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox chekBox1;
+        private System.Windows.Forms.CheckBox checkbox2;
+        private System.Windows.Forms.CheckBox checkbox3;
     }
 }
 
