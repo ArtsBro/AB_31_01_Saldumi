@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.but1 = new System.Windows.Forms.Button();
-            this.nauda_daudzums_eur = new System.Windows.Forms.TextBox();
+            this.nauda = new System.Windows.Forms.TextBox();
             this.daudzums = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label1 = new System.Windows.Forms.Label();
@@ -44,7 +44,7 @@
             // but1
             // 
             this.but1.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
-            this.but1.Location = new System.Drawing.Point(385, 197);
+            this.but1.Location = new System.Drawing.Point(420, 216);
             this.but1.Name = "but1";
             this.but1.Size = new System.Drawing.Size(140, 61);
             this.but1.TabIndex = 0;
@@ -52,19 +52,19 @@
             this.but1.UseVisualStyleBackColor = true;
             this.but1.Click += new System.EventHandler(this.but1_Click);
             // 
-            // nauda_daudzums_eur
+            // nauda
             // 
-            this.nauda_daudzums_eur.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
-            this.nauda_daudzums_eur.Location = new System.Drawing.Point(279, 171);
-            this.nauda_daudzums_eur.Name = "nauda_daudzums_eur";
-            this.nauda_daudzums_eur.Size = new System.Drawing.Size(128, 20);
-            this.nauda_daudzums_eur.TabIndex = 1;
-            this.nauda_daudzums_eur.TextChanged += new System.EventHandler(this.tex1_TextChanged);
+            this.nauda.AccessibleRole = System.Windows.Forms.AccessibleRole.RadioButton;
+            this.nauda.Location = new System.Drawing.Point(281, 171);
+            this.nauda.Name = "nauda";
+            this.nauda.Size = new System.Drawing.Size(128, 20);
+            this.nauda.TabIndex = 1;
+            this.nauda.TextChanged += new System.EventHandler(this.tex1_TextChanged);
             // 
             // daudzums
             // 
             this.daudzums.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
-            this.daudzums.Location = new System.Drawing.Point(497, 171);
+            this.daudzums.Location = new System.Drawing.Point(437, 171);
             this.daudzums.Name = "daudzums";
             this.daudzums.Size = new System.Drawing.Size(123, 20);
             this.daudzums.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             this.label1.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(276, 155);
+            this.label1.Location = new System.Drawing.Point(278, 155);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 13);
             this.label1.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             this.label2.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(494, 155);
+            this.label2.Location = new System.Drawing.Point(434, 155);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 13);
             this.label2.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             this.label3.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(285, 93);
+            this.label3.Location = new System.Drawing.Point(287, 93);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(123, 13);
             this.label3.TabIndex = 5;
@@ -106,7 +106,7 @@
             // 
             this.chekBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.chekBox1.AutoSize = true;
-            this.chekBox1.Location = new System.Drawing.Point(435, 24);
+            this.chekBox1.Location = new System.Drawing.Point(279, 260);
             this.chekBox1.Name = "chekBox1";
             this.chekBox1.Size = new System.Drawing.Size(71, 17);
             this.chekBox1.TabIndex = 6;
@@ -118,7 +118,7 @@
             // 
             this.checkbox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.checkbox2.AutoSize = true;
-            this.checkbox2.Location = new System.Drawing.Point(435, 47);
+            this.checkbox2.Location = new System.Drawing.Point(279, 237);
             this.checkbox2.Name = "checkbox2";
             this.checkbox2.Size = new System.Drawing.Size(60, 17);
             this.checkbox2.TabIndex = 7;
@@ -130,7 +130,7 @@
             // 
             this.checkbox3.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
             this.checkbox3.AutoSize = true;
-            this.checkbox3.Location = new System.Drawing.Point(435, 70);
+            this.checkbox3.Location = new System.Drawing.Point(281, 214);
             this.checkbox3.Name = "checkbox3";
             this.checkbox3.Size = new System.Drawing.Size(45, 17);
             this.checkbox3.TabIndex = 8;
@@ -151,7 +151,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.daudzums);
-            this.Controls.Add(this.nauda_daudzums_eur);
+            this.Controls.Add(this.nauda);
             this.Controls.Add(this.but1);
             this.ForeColor = System.Drawing.Color.Crimson;
             this.Name = "Form1";
@@ -165,7 +165,7 @@
         #endregion
 
         private System.Windows.Forms.Button but1;
-        private System.Windows.Forms.TextBox nauda_daudzums_eur;
+        private System.Windows.Forms.TextBox nauda;
         private System.Windows.Forms.TextBox daudzums;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label1;

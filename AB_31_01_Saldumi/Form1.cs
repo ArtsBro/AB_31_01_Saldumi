@@ -43,10 +43,10 @@ namespace AB_31_01_Saldumi
         {
            
             {
-                double nauda_daudzums_eur = Convert.ToDouble(this.Nauda_daudzums_textbox.Text);
+                double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
                 double Rezultats_eur = 0;
                 double cena = 9.88;
-                Rezultats_eur = nauda_daudzums_eur / cena;
+                Rezultats_eur =  cena / nauda_daudzums_eur;
                 Rezultats_eur = Math.Round(Rezultats_eur, 2);
                 this.daudzums.Text = Rezultats_eur.ToString();
             }
@@ -61,15 +61,21 @@ namespace AB_31_01_Saldumi
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
         {
            
-           if (checkbox1.Checked == true)
+           try
             {
-              cena1 = 222.00;
+                double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
+                double Rezultats_eur = 0;
+                double cena = 3.00;
+                Rezultats_eur = cena / nauda_daudzums_eur;
+                Rezultats_eur = Math.Round(Rezultats_eur, 2);
+                this.daudzums.Text = Rezultats_eur.ToString();
             }
-           else
+            catch (Exception ex)
             {
-              cena1 = 2.00;
+                MessageBox.Show("Nebija ievadīts korekti dati!!!");
+                MessageBox.Show(ex.Message);
+
             }
-           
            
 
 
@@ -84,25 +90,39 @@ namespace AB_31_01_Saldumi
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkbox2.Checked == true)
+            try
             {
-                cena2 = 230.00;
+                double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
+                double Rezultats_eur = 0;
+                double cena = 5.00;
+                Rezultats_eur = cena / nauda_daudzums_eur;
+                Rezultats_eur = Math.Round(Rezultats_eur, 2);
+                this.daudzums.Text = Rezultats_eur.ToString();
             }
-            else
+            catch (Exception ex)
             {
-                cena2 = 2.50;
+                MessageBox.Show("Nebija ievadīts korekti dati!!!");
+                MessageBox.Show(ex.Message);
+
             }
         }
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkbox3.Checked == true)
+            try
             {
-                cena3 = 234.00;
+                double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
+                double Rezultats_eur = 0;
+                double cena = 6.00;
+                Rezultats_eur = cena / nauda_daudzums_eur;
+                Rezultats_eur = Math.Round(Rezultats_eur, 2);
+                this.daudzums.Text = Rezultats_eur.ToString();
             }
-            else
+            catch (Exception ex)
             {
-                cena3 = 3.00;
+                MessageBox.Show("Nebija ievadīts korekti dati!!!");
+                MessageBox.Show(ex.Message);
+
             }
 
 
