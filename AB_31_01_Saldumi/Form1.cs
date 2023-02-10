@@ -46,7 +46,7 @@ namespace AB_31_01_Saldumi
                 double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
                 double Rezultats_eur = 0;
                 double cena = 9.88;
-                Rezultats_eur =  cena / nauda_daudzums_eur;
+                Rezultats_eur = nauda_daudzums_eur / cena;
                 Rezultats_eur = Math.Round(Rezultats_eur, 2);
                 this.daudzums.Text = Rezultats_eur.ToString();
             }
@@ -66,7 +66,7 @@ namespace AB_31_01_Saldumi
                 double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
                 double Rezultats_eur = 0;
                 double cena = 3.00;
-                Rezultats_eur = cena / nauda_daudzums_eur;
+                Rezultats_eur = nauda_daudzums_eur / cena;
                 Rezultats_eur = Math.Round(Rezultats_eur, 2);
                 this.daudzums.Text = Rezultats_eur.ToString();
             }
@@ -95,7 +95,7 @@ namespace AB_31_01_Saldumi
                 double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
                 double Rezultats_eur = 0;
                 double cena = 5.00;
-                Rezultats_eur = cena / nauda_daudzums_eur;
+                Rezultats_eur = nauda_daudzums_eur / cena;
                 Rezultats_eur = Math.Round(Rezultats_eur, 2);
                 this.daudzums.Text = Rezultats_eur.ToString();
             }
@@ -114,7 +114,7 @@ namespace AB_31_01_Saldumi
                 double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
                 double Rezultats_eur = 0;
                 double cena = 6.00;
-                Rezultats_eur = cena / nauda_daudzums_eur;
+                Rezultats_eur = nauda_daudzums_eur / cena;
                 Rezultats_eur = Math.Round(Rezultats_eur, 2);
                 this.daudzums.Text = Rezultats_eur.ToString();
             }
