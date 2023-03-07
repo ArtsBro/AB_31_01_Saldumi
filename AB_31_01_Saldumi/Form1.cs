@@ -25,10 +25,6 @@ namespace AB_31_01_Saldumi
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -39,11 +35,12 @@ namespace AB_31_01_Saldumi
         {
              
         }
-
+        // poga, kas veic darbībau prēķināt un tiek ievadīts failā
         private void but1_Click(object sender, EventArgs e)
         {
            
-            {   
+            {
+                string dateTimePicker1 = this.dateTimePicker1.Text;
                 string vards = this.vards.Text;
                 string nauda = this.nauda.Text;
                 double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
@@ -52,12 +49,16 @@ namespace AB_31_01_Saldumi
                 Rezultats_eur = nauda_daudzums_eur / cena;
                 Rezultats_eur = Math.Round(Rezultats_eur, 2);
                 this.daudzums.Text = Rezultats_eur.ToString();
+              
                 using (StreamWriter writer = new StreamWriter("ceks.txt"))
                 {
                     //ieraksta failā
                     writer.WriteLine(vards.ToString());
                     writer.WriteLine(nauda.ToString());
                     writer.WriteLine(Rezultats_eur.ToString());
+                    writer.WriteLine(dateTimePicker1.ToString());
+
+
                 }
 
             }
@@ -80,7 +81,8 @@ namespace AB_31_01_Saldumi
                 Rezultats_eur = nauda_daudzums_eur / cena;
                 Rezultats_eur = Math.Round(Rezultats_eur, 2);
                 this.daudzums.Text = Rezultats_eur.ToString();
-                
+
+               
             }
             catch (Exception ex)
             {
@@ -155,11 +157,7 @@ namespace AB_31_01_Saldumi
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            using (StreamWriter writer = new StreamWriter("ceks.txt"))
-            {
-                // Write the result to the file
-                writer.WriteLine(vards.ToString());
-            }
+            
         }
 
         private void label7_Click(object sender, EventArgs e)

@@ -44,6 +44,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.vards = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // but1
@@ -201,6 +202,13 @@
             this.label7.Text = "Ievadiet savu vārdu uzvārdu";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(23, 149);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,6 +216,7 @@
             this.BackColor = System.Drawing.Color.LightCoral;
             this.BackgroundImage = global::AB_31_01_Saldumi.Properties.Resources.Mani_saldumi_1_koncas_3;
             this.ClientSize = new System.Drawing.Size(649, 450);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.vards);
             this.Controls.Add(this.label6);
@@ -225,7 +234,6 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,6 +256,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox vards;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
