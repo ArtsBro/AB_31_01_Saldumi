@@ -36,9 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.chekBox1 = new System.Windows.Forms.CheckBox();
-            this.checkbox2 = new System.Windows.Forms.CheckBox();
-            this.checkbox3 = new System.Windows.Forms.CheckBox();
+            this.Šokolāde = new System.Windows.Forms.CheckBox();
+            this.cepumi = new System.Windows.Forms.CheckBox();
+            this.sula = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -108,55 +108,54 @@
             this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Location = new System.Drawing.Point(276, 317);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 13);
+            this.label3.Size = new System.Drawing.Size(0, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "9.88E/kg Saldumu cena";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // chekBox1
+            // Šokolāde
             // 
-            this.chekBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
-            this.chekBox1.AutoSize = true;
-            this.chekBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.chekBox1.Location = new System.Drawing.Point(279, 260);
-            this.chekBox1.Name = "chekBox1";
-            this.chekBox1.Size = new System.Drawing.Size(71, 17);
-            this.chekBox1.TabIndex = 6;
-            this.chekBox1.Text = "Šokolāde";
-            this.chekBox1.UseVisualStyleBackColor = false;
-            this.chekBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            this.Šokolāde.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
+            this.Šokolāde.AutoSize = true;
+            this.Šokolāde.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Šokolāde.Location = new System.Drawing.Point(279, 260);
+            this.Šokolāde.Name = "Šokolāde";
+            this.Šokolāde.Size = new System.Drawing.Size(71, 17);
+            this.Šokolāde.TabIndex = 6;
+            this.Šokolāde.Text = "Šokolāde";
+            this.Šokolāde.UseVisualStyleBackColor = false;
+            this.Šokolāde.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
-            // checkbox2
+            // cepumi
             // 
-            this.checkbox2.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuPopup;
-            this.checkbox2.AutoSize = true;
-            this.checkbox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.checkbox2.Location = new System.Drawing.Point(279, 237);
-            this.checkbox2.Name = "checkbox2";
-            this.checkbox2.Size = new System.Drawing.Size(60, 17);
-            this.checkbox2.TabIndex = 7;
-            this.checkbox2.Text = "cepumi";
-            this.checkbox2.UseVisualStyleBackColor = false;
-            this.checkbox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.cepumi.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuPopup;
+            this.cepumi.AutoSize = true;
+            this.cepumi.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.cepumi.Location = new System.Drawing.Point(279, 237);
+            this.cepumi.Name = "cepumi";
+            this.cepumi.Size = new System.Drawing.Size(60, 17);
+            this.cepumi.TabIndex = 7;
+            this.cepumi.Text = "cepumi";
+            this.cepumi.UseVisualStyleBackColor = false;
+            this.cepumi.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // checkbox3
+            // sula
             // 
-            this.checkbox3.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
-            this.checkbox3.AutoSize = true;
-            this.checkbox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.checkbox3.Location = new System.Drawing.Point(281, 214);
-            this.checkbox3.Name = "checkbox3";
-            this.checkbox3.Size = new System.Drawing.Size(45, 17);
-            this.checkbox3.TabIndex = 8;
-            this.checkbox3.Text = "sula";
-            this.checkbox3.UseVisualStyleBackColor = false;
-            this.checkbox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            this.sula.AccessibleRole = System.Windows.Forms.AccessibleRole.Caret;
+            this.sula.AutoSize = true;
+            this.sula.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.sula.Location = new System.Drawing.Point(281, 214);
+            this.sula.Name = "sula";
+            this.sula.Size = new System.Drawing.Size(45, 17);
+            this.sula.TabIndex = 8;
+            this.sula.Text = "sula";
+            this.sula.UseVisualStyleBackColor = false;
+            this.sula.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label4.Location = new System.Drawing.Point(276, 340);
+            this.label4.Location = new System.Drawing.Point(150, 214);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(101, 13);
             this.label4.TabIndex = 9;
@@ -167,7 +166,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label5.Location = new System.Drawing.Point(276, 366);
+            this.label5.Location = new System.Drawing.Point(150, 238);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 13);
             this.label5.TabIndex = 10;
@@ -177,7 +176,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Location = new System.Drawing.Point(274, 397);
+            this.label6.Location = new System.Drawing.Point(148, 264);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(125, 13);
             this.label6.TabIndex = 11;
@@ -195,7 +194,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label7.Location = new System.Drawing.Point(5, 117);
+            this.label7.Location = new System.Drawing.Point(12, 117);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(142, 13);
             this.label7.TabIndex = 13;
@@ -204,7 +203,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(23, 149);
+            this.dateTimePicker1.Location = new System.Drawing.Point(8, 171);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 14;
@@ -222,9 +221,9 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.checkbox3);
-            this.Controls.Add(this.checkbox2);
-            this.Controls.Add(this.chekBox1);
+            this.Controls.Add(this.sula);
+            this.Controls.Add(this.cepumi);
+            this.Controls.Add(this.Šokolāde);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -234,6 +233,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,9 +248,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox chekBox1;
-        private System.Windows.Forms.CheckBox checkbox2;
-        private System.Windows.Forms.CheckBox checkbox3;
+        private System.Windows.Forms.CheckBox Šokolāde;
+        private System.Windows.Forms.CheckBox cepumi;
+        private System.Windows.Forms.CheckBox sula;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;

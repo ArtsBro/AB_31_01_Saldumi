@@ -40,21 +40,63 @@ namespace AB_31_01_Saldumi
         {
            
             {
+               
                 string dateTimePicker1 = this.dateTimePicker1.Text;
                 string vards = this.vards.Text;
                 string nauda = this.nauda.Text;
-                double nauda_daudzums_eur = Convert.ToDouble(this.nauda.Text);
-                double Rezultats_eur = 0;
-                double cena = 9.88;
-                Rezultats_eur = nauda_daudzums_eur / cena;
-                Rezultats_eur = Math.Round(Rezultats_eur, 2);
-                this.daudzums.Text = Rezultats_eur.ToString();
+  
+                
+                double Rezultats_eur = 0.0;
               
                 using (StreamWriter writer = new StreamWriter("ceks.txt"))
                 {
+
+
                     //ieraksta failā
                     writer.WriteLine(vards.ToString());
                     writer.WriteLine(nauda.ToString());
+    
+                    // ja ieliek x tad tiek čekots
+                    if (sula.Checked)
+                    {
+
+                        Rezultats_eur += 6.00;
+
+
+                        writer.WriteLine("sula_6.00");
+                    }
+                    if (cepumi.Checked)
+                    {
+
+                        Rezultats_eur += 5.00;
+
+
+                        writer.WriteLine("cepumi_5.00");
+                    }
+                    if (Šokolāde.Checked)
+                    {
+
+                        Rezultats_eur += 3.00;
+
+                        writer.WriteLine("Šokolāde_3.00");
+                    }
+                    
+                    if (sula.Checked && cepumi.Checked && Šokolāde.Checked)
+                    {
+                        this.daudzums.Text = Rezultats_eur.ToString("0.00");
+                    }
+                    else if (sula.Checked && cepumi.Checked)
+                    {
+                        this.daudzums.Text = Rezultats_eur.ToString("0.00");
+                    }
+                    else if (cepumi.Checked && Šokolāde.Checked)
+                    {
+                        this.daudzums.Text = Rezultats_eur.ToString("0.00");
+                    }
+                    if (sula.Checked && Šokolāde.Checked)
+                    {
+                        this.daudzums.Text = Rezultats_eur.ToString("0.00");
+                    }
                     writer.WriteLine(Rezultats_eur.ToString());
                     writer.WriteLine(dateTimePicker1.ToString());
 
@@ -67,7 +109,7 @@ namespace AB_31_01_Saldumi
 
         private void tex2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
@@ -161,6 +203,11 @@ namespace AB_31_01_Saldumi
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

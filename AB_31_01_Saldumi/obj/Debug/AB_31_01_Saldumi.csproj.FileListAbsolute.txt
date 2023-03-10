@@ -8,3 +8,23 @@ Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csp
 Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.CoreCompileInputs.cache
 Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.exe
 Z:\skolas darbi\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.pdb
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.exe.config
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.exe
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.pdb
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.AssemblyReference.cache
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.Form1.resources
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.Properties.Resources.resources
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.GenerateResource.cache
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.CoreCompileInputs.cache
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.exe
+C:\Users\artsb\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.pdb
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.exe.config
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.exe
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\bin\Debug\AB_31_01_Saldumi.pdb
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csprojAssemblyReference.cache
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.Form1.resources
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.Properties.Resources.resources
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.GenerateResource.cache
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.csproj.CoreCompileInputs.cache
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.exe
+C:\Users\ab2757\Downloads\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi 1 (3)\AB_31_01_Saldumi\AB_31_01_Saldumi\obj\Debug\AB_31_01_Saldumi.pdb

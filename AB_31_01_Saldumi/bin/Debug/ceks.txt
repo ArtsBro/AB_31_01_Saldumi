@@ -1,4 +1,7 @@
 arts
 22
-2,23
-otrdiena, 2023. gada 7. marts
+sula_6.00
+cepumi_5.00
+Šokolāde_3.00
+14
+piektdiena, 2023. gada 10. marts
